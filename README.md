@@ -23,3 +23,19 @@ A production-ready full-stack pharmacy billing and inventory management system.
 - Cloud deployment
 
 ## 📂 Project Structure
+frontend/
+backend/
+scripts/
+mobile/ (coming soon)
+⚙️ Setup
+Backend
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+Frontend
+cd frontend
+npm install
+npm run dev
+👨‍💻 Author
+
+Rama Venkata Charan
