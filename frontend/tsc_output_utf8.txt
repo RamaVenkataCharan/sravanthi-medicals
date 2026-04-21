@@ -1,0 +1,62 @@
+﻿src/components/ui/LoadingSkeleton.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/ui/StatCard.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/features/billing/BillingPage.tsx(6,79): error TS2307: Cannot find module '../../lib/utils' or its corresponding type declarations.
+src/features/dashboard/DashboardPage.tsx(10,25): error TS6196: 'Bill' is declared but never used.
+src/features/dashboard/DashboardPage.tsx(21,8): error TS2307: Cannot find module '../../lib/utils' or its corresponding type declarations.
+src/features/dashboard/DashboardPage.tsx(80,58): error TS2339: Property 'bill_date' does not exist on type 'never'.
+src/features/dashboard/DashboardPage.tsx(81,68): error TS2339: Property 'grand_total' does not exist on type 'never'.
+src/features/dashboard/DashboardPage.tsx(91,23): error TS2339: Property 'bill_date' does not exist on type 'never'.
+src/features/dashboard/DashboardPage.tsx(92,58): error TS2339: Property 'grand_total' does not exist on type 'never'.
+src/features/dashboard/DashboardPage.tsx(102,71): error TS2339: Property 'current_stock' does not exist on type 'never'.
+src/features/dashboard/DashboardPage.tsx(103,75): error TS2339: Property 'expiry_date' does not exist on type 'never'.
+src/features/dashboard/DashboardPage.tsx(103,108): error TS2339: Property 'expiry_date' does not exist on type 'never'.
+src/features/dashboard/DashboardPage.tsx(104,69): error TS2339: Property 'expiry_date' does not exist on type 'never'.
+src/features/dashboard/DashboardPage.tsx(195,41): error TS6133: 'entry' is declared but its value is never read.
+src/features/inventory/InventoryPage.tsx(6,120): error TS2307: Cannot find module '../../lib/utils' or its corresponding type declarations.
+src/features/inventory/InventoryPage.tsx(104,67): error TS2345: Argument of type '{ drug_name: string; manufacturer: string; batch_no: string; expiry_date: string; mrp: number; current_stock: number; category: string; updated_at: string; }' is not assignable to parameter of type 'never'.
+src/features/inventory/InventoryPage.tsx(108,67): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(values: never, options?: { count?: "exact" | "planned" | "estimated" | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "medicines", never, "POST">', gave the following error.
+    Argument of type '{ drug_name: string; manufacturer: string; batch_no: string; expiry_date: string; mrp: number; current_stock: number; category: string; updated_at: string; }' is not assignable to parameter of type 'never'.
+  Overload 2 of 2, '(values: never[], options?: { count?: "exact" | "planned" | "estimated" | undefined; defaultToNull?: boolean | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "medicines", never, "POST">', gave the following error.
+    Argument of type '{ drug_name: string; manufacturer: string; batch_no: string; expiry_date: string; mrp: number; current_stock: number; category: string; updated_at: string; }' is not assignable to parameter of type 'never[]'.
+      Type '{ drug_name: string; manufacturer: string; batch_no: string; expiry_date: string; mrp: number; current_stock: number; category: string; updated_at: string; }' is missing the following properties from type 'never[]': length, pop, push, concat, and 28 more.
+src/lib/mockData.ts(128,15): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(values: never, options?: { count?: "exact" | "planned" | "estimated" | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "medicines", never, "POST">', gave the following error.
+    Argument of type '{ drug_name: string; manufacturer: string; batch_no: string; expiry_date: string; mrp: number; current_stock: number; category: string; }[]' is not assignable to parameter of type 'never'.
+  Overload 2 of 2, '(values: never[], options?: { count?: "exact" | "planned" | "estimated" | undefined; defaultToNull?: boolean | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "medicines", never, "POST">', gave the following error.
+    Argument of type '{ drug_name: string; manufacturer: string; batch_no: string; expiry_date: string; mrp: number; current_stock: number; category: string; }[]' is not assignable to parameter of type 'never[]'.
+      Type '{ drug_name: string; manufacturer: string; batch_no: string; expiry_date: string; mrp: number; current_stock: number; category: string; }' is not assignable to type 'never'.
+src/lib/mockData.ts(147,15): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(values: never, options?: { count?: "exact" | "planned" | "estimated" | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "doctors", never, "POST">', gave the following error.
+    Argument of type '{ name: string; address: string; phone: string; }[]' is not assignable to parameter of type 'never'.
+  Overload 2 of 2, '(values: never[], options?: { count?: "exact" | "planned" | "estimated" | undefined; defaultToNull?: boolean | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "doctors", never, "POST">', gave the following error.
+    Argument of type '{ name: string; address: string; phone: string; }[]' is not assignable to parameter of type 'never[]'.
+      Type '{ name: string; address: string; phone: string; }' is not assignable to type 'never'.
+src/pages/Customers.tsx(70,67): error TS2345: Argument of type '{ name: string; address: string; phone: string; }' is not assignable to parameter of type 'never'.
+src/pages/Customers.tsx(74,60): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(values: never, options?: { count?: "exact" | "planned" | "estimated" | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "customers", never, "POST">', gave the following error.
+    Argument of type '{ name: string; address: string; phone: string; }' is not assignable to parameter of type 'never'.
+  Overload 2 of 2, '(values: never[], options?: { count?: "exact" | "planned" | "estimated" | undefined; defaultToNull?: boolean | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "customers", never, "POST">', gave the following error.
+    Object literal may only specify known properties, and 'name' does not exist in type 'never[]'.
+src/pages/Doctors.tsx(7,1): error TS6133: 'TableSkeleton' is declared but its value is never read.
+src/pages/Doctors.tsx(52,65): error TS2345: Argument of type '{ name: string; address: string; phone: string; }' is not assignable to parameter of type 'never'.
+src/pages/Doctors.tsx(56,58): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(values: never, options?: { count?: "exact" | "planned" | "estimated" | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "doctors", never, "POST">', gave the following error.
+    Argument of type '{ name: string; address: string; phone: string; }' is not assignable to parameter of type 'never'.
+  Overload 2 of 2, '(values: never[], options?: { count?: "exact" | "planned" | "estimated" | undefined; defaultToNull?: boolean | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "doctors", never, "POST">', gave the following error.
+    Object literal may only specify known properties, and 'name' does not exist in type 'never[]'.
+src/pages/Reports.tsx(5,35): error TS6133: 'Legend' is declared but its value is never read.
+src/pages/Reports.tsx(9,25): error TS6196: 'Bill' is declared but never used.
+src/pages/Reports.tsx(10,61): error TS6133: 'getDaysUntilExpiry' is declared but its value is never read.
+src/pages/Reports.tsx(50,69): error TS2339: Property 'grand_total' does not exist on type 'never'.
+src/pages/Reports.tsx(60,17): error TS2339: Property 'bill_date' does not exist on type 'never'.
+src/pages/Reports.tsx(60,55): error TS2339: Property 'bill_date' does not exist on type 'never'.
+src/pages/Reports.tsx(60,78): error TS2339: Property 'grand_total' does not exist on type 'never'.
+src/pages/Reports.tsx(72,28): error TS2339: Property 'drug_name' does not exist on type 'never'.
+src/pages/Reports.tsx(72,52): error TS2339: Property 'drug_name' does not exist on type 'never'.
+src/pages/Reports.tsx(73,23): error TS2339: Property 'drug_name' does not exist on type 'never'.
+src/pages/Reports.tsx(73,51): error TS2339: Property 'quantity' does not exist on type 'never'.
+src/pages/Reports.tsx(74,23): error TS2339: Property 'drug_name' does not exist on type 'never'.
+src/pages/Reports.tsx(74,57): error TS2339: Property 'row_total' does not exist on type 'never'.
+src/pages/Reports.tsx(84,65): error TS2339: Property 'current_stock' does not exist on type 'never'.
+src/pages/Reports.tsx(84,119): error TS2339: Property 'expiry_date' does not exist on type 'never'.
