@@ -27,7 +27,7 @@ CREATE INDEX IF NOT EXISTS idx_mc_drug_name_trgm
 
 -- GIN trigram index on manufacturer for manufacturer search
 CREATE INDEX IF NOT EXISTS idx_mc_manufacturer_trgm
-  ON medicine_catalog USING GIN (manufacturer gin_trgm_ops);
+  ON medicine_catalog USING GIN (manufacturer gin_trgm_ops);   l
 
 -- Standard B-tree for exact match lookups
 CREATE INDEX IF NOT EXISTS idx_mc_drug_name_btree
